@@ -10,6 +10,7 @@ public class Main {
         System.out.println(myFavoriteMapleTree.getHeightFt());
         System.out.println(myFavoriteMapleTree.getTrunkDiameterInches());
 
-        myFavoriteMapleTree.announceTallTree();
+        //myFavoriteMapleTree.announceTallTree();
+        myFavoriteMapleTree.grow();
     }
 }
