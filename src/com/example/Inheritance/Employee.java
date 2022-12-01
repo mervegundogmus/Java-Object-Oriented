@@ -1,4 +1,4 @@
-package com.example.Inheriitance;
+package com.example.Inheritance;
 
 public class Employee {
     private String name;
