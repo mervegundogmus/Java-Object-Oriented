@@ -20,4 +20,13 @@ public class Contact {
         this.name = name;
         this.emailAddress = emailAddress;
     }
+
+    @Override
+    public String toString() {
+        return "Contact{" +
+                "name='" + name + '\'' +
+                ", phoneNumber=" + phoneNumber +
+                ", emailAddress='" + emailAddress + '\'' +
+                '}';
+    }
 }
